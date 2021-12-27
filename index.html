@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Form</title>
+        <style>
+            body {
+                background-color: #242424;
+                font-family: sans-serif;
+                font-size: 20px;
+                color: #00ff9594;
+                /* text-align: center; */
+            }
+            #login {
+                width: 300px;
+                height: 350px;
+                border: 2px solid ;
+                border-radius: 5px;
+                background-color: #0d41418e;
+            }
+            h1 {
+                padding-left: 10px;
+            }
+            form {
+                padding-left: 10px;
+            }
+
+            input {
+                margin-right: 3px;
+                background-color: #1f88888e;
+                border: 1px solid #1f88888e;
+                border-radius: 3px;
+                width: 220px;
+                height: 25px;
+
+            }
+            .log {
+                color: #00ff9594;
+                font-size: 20px;
+                width: 70px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div id="login">
+
+            <h1>Login Form</h1>
+            <form action="" method="get">
+                 <span>Email:</span><br>
+                 <input type="email" required name="email"><br><br>
+                 Password:<br>
+                 <input type="password" minlength="5" name="password"><br><br>
+                 <input class="log" type="submit" value="Login">
+
+            </form>
+
+        </div>
+    </body>
+
+</html>
