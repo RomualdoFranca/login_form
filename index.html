@@ -18,24 +18,28 @@
                 height: 350px;
                 border: 2px solid ;
                 border-radius: 5px;
-                background-color: #0d41418e;
+                /* background-color: #0d41418e; */
             }
-            h1 {
+            h1, form {
                 padding-left: 10px;
             }
-            form {
-                padding-left: 10px;
-            }
+         
 
             input {
                 margin-right: 3px;
-                background-color: #1f88888e;
-                border: 1px solid #1f88888e;
+                background-color: #3f3f3f8e;
+                border: 1px solid #00ff9594;
                 border-radius: 3px;
                 width: 220px;
                 height: 25px;
+            }
+
+            input, select, textarea { /*change color and font-size in text input*/
+                color: #00ff9594;
+                font-size: 20px;
 
             }
+
             .log {
                 color: #00ff9594;
                 font-size: 20px;
@@ -48,7 +52,7 @@
     <body>
         <div id="login">
 
-            <h1>Login Form</h1>
+            <h1>Login</h1>
             <form action="" method="get">
                  <span>Email:</span><br>
                  <input type="email" required name="email"><br><br>
